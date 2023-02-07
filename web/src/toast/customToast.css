@@ -1,0 +1,9 @@
+.toast-success-container {
+  background: #27ae60 !important;
+}
+.toast-error-container {
+  background: #d63031 !important;
+}
+.toast-warning-container {
+  background: #f79f1f !important;
+}

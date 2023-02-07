@@ -1,0 +1,26 @@
+.clients-container {
+  height: 100%;
+  display: flex;
+}
+
+.clients-container-list {
+  flex: 1;
+  padding: 60px 50px;
+}
+
+.clients-container-create {
+  width: 40%;
+  padding: 50px;
+  position: relative;
+}
+
+.clients-container-create::before {
+  content: "";
+  position: absolute;
+  height: 90%;
+  width: 1px;
+  background-color: #e1e1e1;
+  top: 50%;
+  left: 0;
+  transform: translate(0, -50%);
+}
